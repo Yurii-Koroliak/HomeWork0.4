@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resource/style/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="formcontainer">
+                <h1>Your information</h1>
+                <form action="" method="get">
+                    <fieldset class="form">
+                        <legend>Your details</legend>
+                        <label for="name" class="label">
+                            Full name
+                            <input type="text" required name="name" placeholder="Egor Frolov" class="input">
+                        </label>
+    
+                        <label for="email" class="label">
+                            E-mail
+                            <input type="email" required name="email" placeholder="qwerty@gmail.com" valid class="input">
+                        </label>
+    
+                        <label for="password" class="label">
+                            Password
+                            <input type="password" required name="password" class="input">
+                        </label>
+                        <label for="password" class="label">
+                            Repeat password
+                            <input type="password" required name="password" class="input">
+                        </label>
+    
+                        <ul class="label">
+                            <li>
+                                <label>
+                                    I am man
+                                    <input type="radio" name="gender" value="man">
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    I am women
+                                    <input type="radio" name="gender" value="women">
+                                </label>
+                            </li>
+                        </ul>
+    
+                        <label for="age" class="label">
+                            Age
+                            <input type="number" required name="age" class="input" placeholder="27">
+                        </label>
+    
+                        <label for="cource" class="label">Choose your course</label>
+                        <select name="course" id="course" required class="input">
+                            <option value="">Choose your course</option>
+                            <option value="Front-End">Front-End</option>
+                            <option value="Back-End">Back-End</option>
+                            <option value="Project Management">Project Management</option>
+                            <option value="QA Manual">QA Manual</option>
+                        </select>
+    
+                        <label for="residence address" class="label">Residence address</label>
+                        <textarea name="residence address" id="residence address" cols="15" rows="5">
+                            
+                        </textarea>
+    
+                        <label for="Iagree">
+                            <input type="radio" name="Iagree" value="Iagree">
+                            I agree to the processing of personal data
+                        </label>
+                    </fieldset>
+                    <button type="reset" class="btn">Clear form</button>
+                    <button type="submit" class="btn">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
